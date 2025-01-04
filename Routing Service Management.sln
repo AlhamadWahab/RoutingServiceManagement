@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing Service", "Routing Service\Routing Service.csproj", "{BB13D0A9-6F40-4ED8-AAA2-BA7C3556B762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing Service Identity and Security", "Routing Service Identity and Security", "{40E642DD-BC06-44FA-9449-108197F54049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityLayer", "IdentityLayer\IdentityLayer.csproj", "{2A5A51A0-1789-489C-879B-7F6B09BA17F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing Service Infrastructure", "Routing Service Infrastructure", "{4E5EE428-8B74-4648-AABF-A99D9E12463F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureLayer", "InfrastructureLayer\InfrastructureLayer.csproj", "{3B34F9FC-4442-459F-B6DD-28F12779BBC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing Service Domain", "Routing Service Domain", "{63E29FB1-36AA-42E8-8675-718E15974752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLayer", "DomainLayer\DomainLayer.csproj", "{7C1D6378-96F6-42D4-905D-C9E3A750FCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB13D0A9-6F40-4ED8-AAA2-BA7C3556B762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB13D0A9-6F40-4ED8-AAA2-BA7C3556B762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB13D0A9-6F40-4ED8-AAA2-BA7C3556B762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB13D0A9-6F40-4ED8-AAA2-BA7C3556B762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5A51A0-1789-489C-879B-7F6B09BA17F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5A51A0-1789-489C-879B-7F6B09BA17F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5A51A0-1789-489C-879B-7F6B09BA17F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5A51A0-1789-489C-879B-7F6B09BA17F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B34F9FC-4442-459F-B6DD-28F12779BBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B34F9FC-4442-459F-B6DD-28F12779BBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B34F9FC-4442-459F-B6DD-28F12779BBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B34F9FC-4442-459F-B6DD-28F12779BBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1D6378-96F6-42D4-905D-C9E3A750FCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1D6378-96F6-42D4-905D-C9E3A750FCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1D6378-96F6-42D4-905D-C9E3A750FCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1D6378-96F6-42D4-905D-C9E3A750FCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A5A51A0-1789-489C-879B-7F6B09BA17F8} = {40E642DD-BC06-44FA-9449-108197F54049}
+		{3B34F9FC-4442-459F-B6DD-28F12779BBC1} = {4E5EE428-8B74-4648-AABF-A99D9E12463F}
+		{7C1D6378-96F6-42D4-905D-C9E3A750FCAF} = {63E29FB1-36AA-42E8-8675-718E15974752}
+	EndGlobalSection
+EndGlobal
