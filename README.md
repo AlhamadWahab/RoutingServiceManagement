@@ -12,4 +12,8 @@ JWT
 ASP.NET Core Identity. 
 
 # Picture of the app 
-![Authenticatio](BilderVonApp/AuthenticationEndPoint.png)
+![Authentication](BilderVonApp/AuthenticationEndPoint.png)
+![Login Successful](BilderVonApp/LoginSuccess.png)
+![Login Token](BilderVonApp/LoginToken.png)
+![Get All Nodes](BilderVonApp/200Respons-.png)
+![Get Short Path](BilderVonApp/RouterByCitiesNamesEndPoint-.png)
