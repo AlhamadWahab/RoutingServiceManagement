@@ -12,4 +12,4 @@ JWT
 ASP.NET Core Identity. 
 
 # Picture of the app 
-![Authenticatio](BilerVonApp/AuthenticationEndPoint.png)
+![Authenticatio](BilderVonApp/AuthenticationEndPoint.png)
